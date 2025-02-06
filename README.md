@@ -13,8 +13,11 @@ This project builds a **Random Forest Regressor** to predict the amount of **CO�
 ## 📂 Dataset
 The dataset includes the following features:
 - **Engine Size (L)**
-- **Cylinders**
 - **Fuel Type**
+- **Vehicle Class**
+- **Vehicle Make**
+- **Fuel Type**
+- **Transmission Type**
 - **CO₂ Emissions (g/km) [Target]**
 
 📌 **Source**: *https://www.kaggle.com/datasets/brsahan/vehicle-co2-emissions-dataset/data*
