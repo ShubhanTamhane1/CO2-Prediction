@@ -16,7 +16,6 @@ The dataset includes the following features:
 - **Fuel Type**
 - **Vehicle Class**
 - **Vehicle Make**
-- **Fuel Type**
 - **Transmission Type**
 - **CO₂ Emissions (g/km) [Target]**
 
