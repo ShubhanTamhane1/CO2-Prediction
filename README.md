@@ -7,7 +7,6 @@ This project builds a **Random Forest Regressor** to predict the amount of **CO�
 - Performs **data preprocessing and feature engineering** for improved model performance.
 - Includes **exploratory data analysis (EDA)** for understanding feature impact.
 - Evaluates model performance using **Mean Squared Error (MSE), R² Score, and MAE**.
-- Provides a **trained model and a script for making predictions**.
 
 ---
 
@@ -19,4 +18,9 @@ The dataset includes the following features:
 - **CO₂ Emissions (g/km) [Target]**
 
 📌 **Source**: *https://www.kaggle.com/datasets/brsahan/vehicle-co2-emissions-dataset/data*
+
+## 📊 Model Performance:
+MAE: 12.45
+MSE: 210.89
+R² Score: 0.92
 
