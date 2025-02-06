@@ -15,6 +15,8 @@ This project builds a **Random Forest Regressor** to predict the amount of **COâ
   - Car
   - RandomForest
   - ggplot2 
+  - R Studio
+  - R Markdown
 
 ## ðŸ“‚ Dataset
 The dataset includes the following features:
