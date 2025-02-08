@@ -31,9 +31,9 @@ The dataset includes the following features:
 
 
 ## 📊 Results:
-- **MAE:** 12.45
-- **MSE:** 210.89
-- **R² Score:** 0.92
+- **MAE:** 18.75
+- **MSE:** 713.89
+- **R² Score:** 0.90
  
  ## 🔑 Key Insights:
 - 
