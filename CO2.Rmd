@@ -234,9 +234,49 @@ summary(model_rf)
 
 
 ```{r}
-predictions <- predict(model_rf, d1)
-r_squared <- cor(d1$CO2.Emissions.g.km, predictions)^2
-print(paste("R-Squared:", round(r_squared, 4)))
+install.packages("randomForest")
+install.packages("caret")
+library(randomForest)
+library(caret)
+```
+
+```{r}
+set.seed(123)  # For reproducibility
+
+# Define a tuning grid for mtry
+tune_grid <- expand.grid(
+  mtry = seq(2, 6, by = 1)  # Adjust based on the number of predictors
+)
+
+```
+
+```{r}
+control <- trainControl(
+  method = "cv",   # Cross-validation
+  number = 5,      # 5-fold CV
+  search = "grid"
+)
+
+```
+
+```{r}
+# Train the model using caret
+tuned_model <- train(
+  CO2.Emissions.g.km. ~ Class_encoded + Transmission_encoded + brand_encoded + Fuel.Consumption.Comb..mpg. + Fuel.Type,
+  data = d1,
+  method = "rf",
+  tuneGrid = tune_grid,
+  trControl = control,
+  ntree = 500  # Fixed number of trees
+)
+
+# Print the best mtry value
+print(tuned_model$bestTune)
+
+```
+
+```{r}
+print(tuned_model)
 ```
 
 ```{r}
