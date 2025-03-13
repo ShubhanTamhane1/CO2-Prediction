@@ -34,8 +34,13 @@ The dataset features various attributes related to vehicle emissions
 **Source**: https://www.kaggle.com/datasets/bhuviranga/co2-emissions
   
 ## 📊 Results:
-- **R²  Score**: 89.3%
-- MSE: 713.9
-- MAE: 18.7
+- **R²  Score**: 99.4%
+- MAE: 3.2
 
 **Key Insights**: 
+ - Engine Size (L) and Number of Cylinders were highly correlated with each other, causing collinearity issues
+ - The type of Fuel and Gas Mileage (mpg) were the most important features 
+ - Cars with lower gas mileage result in **higher CO₂ emissions**
+ - Economy brands had **higher CO₂ emissions**
+ - Automatic sequential cars had **higher CO₂ emissions**
+ - Sedans had **higher CO₂ emissions**
