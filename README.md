@@ -40,7 +40,7 @@ The dataset features various attributes related to vehicle emissions
 **Key Insights**: 
  - Engine Size (L) and Number of Cylinders were highly correlated with each other, causing collinearity issues
  - The type of Fuel and Gas Mileage (mpg) were the most important features 
- - Cars with lower gas mileage result in **higher CO₂ emissions**
- - Economy brands had **higher CO₂ emissions**
- - Automatic sequential cars had **higher CO₂ emissions**
- - Sedans had **higher CO₂ emissions**
+ - Cars with lower gas mileage result in the **highest CO₂ emissions**
+ - Economy brands had the **highest CO₂ emissions**
+ - Automatic sequential cars had the **highest CO₂ emissions**
+ - Sedans had the **highest CO₂ emissions**
