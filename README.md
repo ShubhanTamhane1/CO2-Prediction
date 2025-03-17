@@ -44,3 +44,7 @@ The dataset features various attributes related to vehicle emissions
  - Economy brands had the **highest CO₂ emissions**
  - Automatic sequential cars had the **highest CO₂ emissions**
  - Sedans had the **highest CO₂ emissions**
+ 
+ **Possible Future Improvements**
+  - Number of passengers
+  - Terrain of drive
