@@ -8,11 +8,11 @@ This model has significant applications in both the **automotive industry** (for
  - Cleaning and preparing car emissions data for modeling 
  - Uncovering hidden trends and relationships between variables using **gplot2**
  - Implementing a Random Forest Regressor to accurately predict CO₂ Emissions by car
- - Assessed model using **Mean Squared Error, Mean Absolute Error, and R² Score**
+ - Assessed model using **Mean Absolute Error and R² Score**
  
  ## 📡 Technologies Used
   - **Programming Language: R**
-  - Libraries and Tools:
+  - Tools and Libraries:
     - R-Studio
     - R-Markdown
     - Dplyr
