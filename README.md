@@ -13,12 +13,12 @@ This model has significant applications in both the **automotive industry** (for
  ## 📡 Technologies Used
   - **Programming Language: R**
   - Libraries and Tools:
-   - Dplyr
-   - Car
-   - Random Forest
-   - ggplot2
-   - R-Studio
-   - R-Markdown
+    - Dplyr
+    - Car
+    - Random Forest
+    - ggplot2
+    - R-Studio
+    - R-Markdown
 
 ## 📂 Dataset
 The dataset features various attributes related to vehicle emissions
